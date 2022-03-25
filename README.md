@@ -102,7 +102,7 @@ namespace OddOrEven{
 
 ```
 
-##3) Pesquise sobre conversões de variáveis em C# e descreva os temas abaixo:
-###a. Conversão implícita
-###b. Conversão explícita
+## 3) Pesquise sobre conversões de variáveis em C# e descreva os temas abaixo:
+### a. Conversão implícita
+### b. Conversão explícita
 
