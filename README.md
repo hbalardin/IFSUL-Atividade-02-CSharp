@@ -63,4 +63,46 @@ namespace Grades{
 
 ## 2) Elabore um algoritmo que calcule a idade média de 5 alunos.
 ```C#
+using System;
+
+namespace OddOrEven{
+	public class Program
+	{
+		public static void Main()
+		{
+			Selector();
+		}
+		
+		public static void Selector(){
+			Console.WriteLine("===== Descubra se seu número é par ou impar! =====");
+			
+			Console.WriteLine("Digite um número inteiro: ");
+			int n1 = int.Parse(Console.ReadLine());
+			
+			bool isEven = IsEven(n1);
+			
+			if (isEven){
+				Console.WriteLine();
+				Console.WriteLine("Seu número é par! :p");
+			} else {
+				Console.WriteLine();
+				Console.WriteLine("Seu número é impar! :D");
+			}
+			
+			Console.WriteLine();
+			Console.WriteLine("Obrigado pela preferência! ;)");
+			Console.WriteLine("====================================================");
+		}
+		
+		public static bool IsEven(int n){
+			return n % 2 == 0;
+		}
+	}
+}
+
 ```
+
+##3) Pesquise sobre conversões de variáveis em C# e descreva os temas abaixo:
+###a. Conversão implícita
+###b. Conversão explícita
+
