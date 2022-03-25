@@ -104,5 +104,8 @@ namespace OddOrEven{
 
 ## 3) Pesquise sobre conversões de variáveis em C# e descreva os temas abaixo:
 ### a. Conversão implícita
+Uma conversão implícita acontece automáticamente ao redeclarar o valor de uma variável. Por exemplo ao associar um valor integer para uma variável double, esse integer será convertido para double.
 ### b. Conversão explícita
+Uma conversão é considerada explícita quando é necessário um método para realizar a conversão da variável. Segue alguns métodos como exemplo. `CBool`, `CInt`, `CSByte`, `CShort`, `CBool`, `CChar`, `CStr` e `CUInt`.
 
+fonte: [docs.microsoft.com](https://docs.microsoft.com/pt-br/dotnet/visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions#:~:text=Uma%20convers%C3%A3o%20impl%C3%ADcita%20n%C3%A3o%20requer,de%20atribu%C3%AD%2Dlo%20a%20q%20.&text=Uma%20convers%C3%A3o%20expl%C3%ADcita%20usa%20uma%20palavra%2Dchave%20de%20convers%C3%A3o%20de%20tipo)
