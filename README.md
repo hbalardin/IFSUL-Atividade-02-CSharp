@@ -61,7 +61,7 @@ namespace Grades{
 
 ```
 
-## 2) Elabore um algoritmo que calcule a idade média de 5 alunos.
+## 2) Elabore um algoritmo que diga se um número é par o impar.
 ```C#
 using System;
 
